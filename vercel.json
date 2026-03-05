@@ -1,9 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "paris_itinerary.html", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/paris_itinerary.html" }
-  ]
+  "builds": [{ "src": "paris_itinerary.html", "use": "@vercel/static" }],
+  "routes": [{ "src": "/", "dest": "/paris_itinerary.html" }]
 }
